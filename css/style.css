@@ -8,6 +8,13 @@ body {
 .dark .nav-link {
     color: #F3F2F0;
 }
+.light {
+    background-color: #F3F2F0;
+    color: #010101;
+}
+.light .nav-link {
+    color: #010101;
+}
 .wrapper {
     width: 100%;
     max-width: 1140px;
@@ -26,7 +33,7 @@ body {
     margin-bottom: 120px;
     width: 100%;
 }
-.header {
+header {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
